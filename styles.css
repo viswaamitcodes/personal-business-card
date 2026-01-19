@@ -1,0 +1,33 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    /* align-items: center; */
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-bottom: 4px solid #d8cefe;
+    background: #ddebf8;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #2b2835;
+}
